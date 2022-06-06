@@ -5,7 +5,7 @@
 
 [Action](https://github.com/alsatarysamah/basic-api-server/actions)
 
-[pullRequest]()
+[pullRequest](https://github.com/alsatarysamah/basic-api-server/pull/2)
 
 # SQL Models
 
