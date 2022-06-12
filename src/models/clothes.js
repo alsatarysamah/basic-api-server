@@ -6,9 +6,7 @@ const clothes = (sequelize, DataTypes) =>
             allowNull: false,
         },
 
-        clothesType: {
-            type: DataTypes.STRING,
-        },
+        
     });
 
 module.exports = clothes;
