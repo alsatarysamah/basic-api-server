@@ -7,7 +7,7 @@ const { Sequelize, DataTypes } = require("sequelize");
 
 //const people = require("./people.model.js");
 const food=require('../models/food');
-// const clothes=require('../models/clothes');
+const clothes=require('../models/clothes');
 
 let sequelizeOptions =
     process.env.NODE_ENV === "production"
@@ -25,5 +25,5 @@ let sequelizeOptions =
         module.exports = {
             db: sequelize,
             food: food(sequelize, DataTypes),
-            // clothes: clothes(sequelize, DataTypes),
+             clothes: clothes(sequelize, DataTypes),
         };

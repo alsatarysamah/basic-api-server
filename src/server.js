@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 app.use(foodRoutes);
-// app.use(clothesRoutes);
+app.use(clothesRoutes);
 
 app.get("/",(req,res) => {
     res.send("Home");
